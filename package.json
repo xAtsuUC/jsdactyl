@@ -6,7 +6,8 @@
 	"scripts": {
 		"test": "eslint --fix compiled/ && eslint compiled/",
 		"doc": "jsdoc -c \"./jsdoc.json\"",
-		"build": "tsc"
+		"build": "tsc",
+		"serve": "npm run doc && jekyll b && jekyll s"
 	},
 	"files": [
 		"compiled/",
