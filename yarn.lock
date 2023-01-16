@@ -92,6 +92,11 @@
   "resolved" "https://registry.npmjs.org/@types/mdurl/-/mdurl-1.0.2.tgz"
   "version" "1.0.2"
 
+"@types/node@^18.11.18":
+  "integrity" "sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA=="
+  "resolved" "https://registry.npmjs.org/@types/node/-/node-18.11.18.tgz"
+  "version" "18.11.18"
+
 "@types/semver@^7.3.12":
   "integrity" "sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw=="
   "resolved" "https://registry.npmjs.org/@types/semver/-/semver-7.3.13.tgz"
