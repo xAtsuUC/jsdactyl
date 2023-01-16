@@ -23,6 +23,7 @@
         "@typescript-eslint/no-unused-vars": "off",
         "@typescript-eslint/prefer-const": "off",
         "@typescript-eslint/no-var-requires": "off",
-        "no-async-promise-executor": "off"
+        "no-async-promise-executor": "off",
+        "@typescript-eslint/no-explicit-any": "off"
     }
 }
