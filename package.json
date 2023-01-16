@@ -1,0 +1,24 @@
+{
+  "name": "pterojs",
+  "version": "1.0.0",
+  "description": "A Pterodactyl Panel API Wrapper",
+  "main": "compiled/index.js",
+  "scripts": {
+    "test": "eslint --fix compiled/ && eslint compiled/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xAtsuUC/pterojs.git"
+  },
+  "keywords": [
+    "pterodactyl",
+    "javascript",
+    "api"
+  ],
+  "author": "xAtsuUC_#7030",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xAtsuUC/pterojs/issues"
+  },
+  "homepage": "https://github.com/xAtsuUC/pterojs#readme"
+}
