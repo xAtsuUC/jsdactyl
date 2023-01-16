@@ -1,5 +1,5 @@
 {
-  "name": "pterojs",
+  "name": "jsdactyl",
   "version": "1.0.0",
   "description": "A Pterodactyl Panel API Wrapper",
   "main": "compiled/index.js",
