@@ -36,6 +36,7 @@ jobs:
         with:
           source: ./documentation/jsdactyl
           destination: ./docs
+      - run: chmod -R 777 ./docs
       - run: cp ./index.html ./docs/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
