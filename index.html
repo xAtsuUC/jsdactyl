@@ -5,19 +5,18 @@
 <head>
     <title>Redirecting...</title>
     <script>
-        // require a json file
-        var json = require('./package.json');
+        let json = import("./package.json")  
+        let link = `https://xatsuuc.github.io/pterojs/${json.version}/index.html`
+        // insert text to the body
+        document.body.innerHTML = `You're being redirected, if not, <a href="${link}">click here</a>`
         // wait 5 seconds before redirecting
         setTimeout(function() {
-            window.location = `https://xatsuuc.github.io/pterojs/${json.version}/index.html`;
+            window.location = link ;
         }, 5000);
     </script>
 </head>
   
 <body>
-    <p style="text-align:center;">
-        If you are not redirected automatically, follow this <a href="http://"></a>
-    </p>
   
 </body>
   
