@@ -1,6 +1,6 @@
-import AdminAPI from '../AdminAPI';
+import AdminAPI from './AdminAPI';
 
-import ServerDatabaseModel, { ServerDatabaseOptionsRaw } from '../models/ServerDatabase';
+import ServerDatabaseModel, { ServerDatabaseOptionsRaw } from './models/ServerDatabase';
 
 /**
  * @class ServerDatabase

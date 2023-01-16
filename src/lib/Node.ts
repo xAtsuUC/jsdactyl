@@ -1,8 +1,8 @@
-import AdminAPI from '../AdminAPI';
+import AdminAPI from './AdminAPI';
 
-import NodeModel, { NodeOptionsRaw, NewNodeOptions } from '../models/Node';
+import NodeModel, { NodeOptionsRaw, NewNodeOptions } from './models/Node';
 import NodeAllocation from './NodeAllocation';
-import Pagination, { PaginationOptionsRaw } from '../models/Pagination';
+import Pagination, { PaginationOptionsRaw } from './models/Pagination';
 
 /**
  * @class Node

@@ -3,15 +3,15 @@ import Builder from './lib/Builder';
 import AdminClient from './lib/AdminAPI';
 import UserClient from './lib/UserAPI';
 
-import User from './lib/client/User';
-import Node from './lib/client/Node';
-import Location from './lib/client/Location';
-import Server from './lib/client/Server';
-import Nest from './lib/client/Nest';
-import Egg from './lib/client/Egg';
+import User from './lib/User';
+import Node from './lib/Node';
+import Location from './lib/Location';
+import Server from './lib/Server';
+import Nest from './lib/Nest';
+import Egg from './lib/Egg';
 
-import NodeAllocation from './lib/client/NodeAllocation';
-import ServerDatabase from './lib/client/ServerDatabase';
+import NodeAllocation from './lib/NodeAllocation';
+import ServerDatabase from './lib/ServerDatabase';
 
 import ClientServerModel from './lib/models/ClientServer';
 import UserModel from './lib/models/User';

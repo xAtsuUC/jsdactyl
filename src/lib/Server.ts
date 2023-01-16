@@ -1,11 +1,10 @@
-import AdminAPI from '../AdminAPI';
+import AdminAPI from './AdminAPI';
 
-import ServerModel, { ServerOptionsRaw, ServerDetailsRequestOptions, ServerBuildConfigRequestOptions, ServerStartupRequestOptions, NewServerOptions, ServerUpdateOptions, ServerBuildOptions, ServerStartupOptions } from '../models/Server';
+import ServerModel, { ServerOptionsRaw, ServerDetailsRequestOptions, ServerBuildConfigRequestOptions, ServerStartupRequestOptions, NewServerOptions, ServerUpdateOptions, ServerBuildOptions, ServerStartupOptions } from './models/Server';
 import ServerDatabase from './ServerDatabase';
-import Pagination, { PaginationOptionsRaw } from '../models/Pagination';
+import Pagination, { PaginationOptionsRaw } from './models/Pagination';
 
-/**
- * @class Server
+/** 
  * @extends ServerModel
  * @description Class for interacting with the panel's servers.
  * @constructor {AdminAPI} api The API instance.

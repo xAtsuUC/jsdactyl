@@ -1,11 +1,11 @@
 import PterodactylAPI from './index';
 
-import User from './client/User';
-import Node from './client/Node';
-import Location from './client/Location';
-import Server from './client/Server';
-import Nest from './client/Nest';
-import Egg from './client/Egg';
+import User from './User';
+import Node from './Node';
+import Location from './Location';
+import Server from './Server';
+import Nest from './Nest';
+import Egg from './Egg';
 
 import { NewServerOptions } from './models/Server';
 import { NewUserOptions } from './models/User';
@@ -24,6 +24,7 @@ import { NewNodeOptions } from './models/Node';
  */
 class AdminClient extends PterodactylAPI {
     constructor(url: string, apiKey: string) {
+        
         super(url, apiKey);
 
         this.testConnection()
@@ -70,7 +71,7 @@ class AdminClient extends PterodactylAPI {
     /**
      * @description Get all users from the panel.
      * @param {number} [page] The page number to get.
-     * @returns {Promise<User[]>}
+     * @returns {Promise<User#User[]>}
      * @example
      * client.getUsers().then(users => {
      *    console.log(users);
@@ -79,6 +80,7 @@ class AdminClient extends PterodactylAPI {
      * });
      */
     public getUsers(page?: number): Promise<User[]> {
+        (page) ? page : page = 1;
         return User.getAll(this, page);
     }
 

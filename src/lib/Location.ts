@@ -1,7 +1,7 @@
-import AdminAPI from '../AdminAPI';
+import AdminAPI from './AdminAPI';
 
-import LocationModel, { LocationOptionsRaw, NewLocationOptions } from '../models/Location';
-import Pagination, { PaginationOptionsRaw } from '../models/Pagination';
+import LocationModel, { LocationOptionsRaw, NewLocationOptions } from './models/Location';
+import Pagination, { PaginationOptionsRaw } from './models/Pagination';
 
 /**
  * @class Location

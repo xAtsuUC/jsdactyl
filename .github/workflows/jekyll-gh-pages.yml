@@ -29,15 +29,13 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v2
-      - run: npm install --only=dev
+      - run: npm install --only-dev
       - run: npm run doc
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./documentation/jsdactyl
           destination: ./docs
-      - run: sudo chmod -R 777 ./docs
-      - run: cp ./index.html ./docs/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

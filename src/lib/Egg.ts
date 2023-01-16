@@ -1,6 +1,6 @@
-import AdminAPI from '../AdminAPI';
+import AdminAPI from './AdminAPI';
 
-import EggModel, { EggOptionsRaw } from '../models/Egg';
+import EggModel, { EggOptionsRaw } from './models/Egg';
 
 /**
  * @class Egg

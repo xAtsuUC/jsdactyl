@@ -1,6 +1,6 @@
 import PterodactylAPI from './index';
 
-import ClientServer from './client/ClientServer';
+import ClientServer from './ClientServer';
 
 /**
  * @class UserClient

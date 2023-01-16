@@ -1,7 +1,7 @@
-import UserAPI from '../UserAPI';
+import UserAPI from './UserAPI';
 
-import ClientServerModel, { ServerOptionsRaw, } from '../models/ClientServer';
-import Pagination, { PaginationOptionsRaw, } from '../models/Pagination';
+import ClientServerModel, { ServerOptionsRaw, } from './models/ClientServer';
+import Pagination, { PaginationOptionsRaw, } from './models/Pagination';
 
 interface UtilizationData {
     cpu: {

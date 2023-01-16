@@ -55,7 +55,7 @@ class ClientServer implements ServerOptions {
         this.featureLimits = data.feature_limits;
     }
 
-    public toJSON(): any {
+    public toJSON() {
         return {
             serverOwner: this.serverOwner,
             identifier: this.identifier,

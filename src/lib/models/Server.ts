@@ -1,4 +1,12 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+
+/**
+ * @description Represents a server on the panel.
+ * @property {string} external_id The new external ID of the server.
+ * @property {string} name The new name for the server
+ * @property {string} description The new description for the server.
+ * @property {number} user The new user ID for the server.
+ */
 interface ServerUpdateOptions {
     name?: string;
     description?: string;
