@@ -1,6 +1,6 @@
 {
     "source": {
-        "include": ["compiled", "README.md", "package.json"]
+        "include": ["compiled/", "README.md", "package.json"]
     },
 
     "opts": {
