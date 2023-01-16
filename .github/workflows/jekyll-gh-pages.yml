@@ -33,6 +33,9 @@ jobs:
       - run: npm run doc
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./documentation
+          destination: ./docs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
