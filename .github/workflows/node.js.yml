@@ -31,5 +31,5 @@ jobs:
     - run: npm i -g yarn
     - run: rm -rf node_modules
     - run: yarn install --frozen-lockfile -D.
-    - run: yarn run build --if-present
+    - run: yarn run build
     - run: yarn test
