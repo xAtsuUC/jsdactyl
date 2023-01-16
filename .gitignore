@@ -106,3 +106,7 @@ dist
 # Documentation
 docs/
 documentation/
+
+# Reference
+Pterodactyl.js/
+compiled/

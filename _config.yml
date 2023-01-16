@@ -1,2 +1,2 @@
-source: "./documentation/jsdactyl"
+source: "./documentation"
 destination: "./docs"
