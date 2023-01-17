@@ -26,8 +26,8 @@ jobs:
       - run: yarn test
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+          NODE_AUTH_TOKEN: ${{ secrets.PKG_TOKEN }}
+
   publish-npm:
     runs-on: ubuntu-latest
     steps:
