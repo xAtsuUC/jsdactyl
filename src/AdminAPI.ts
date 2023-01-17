@@ -1,16 +1,16 @@
-import PterodactylAPI from './main';
+import PterodactylAPI from './main.js';
 
-import User from './User';
-import Node from './Node';
-import Location from './Location';
-import Server from './Server';
-import Nest from './Nest';
-import Egg from './Egg';
+import User from './User.js';
+import Node from './Node.js';
+import Location from './Location.js';
+import Server from './Server.js';
+import Nest from './Nest.js';
+import Egg from './Egg.js';
 
-import { NewServerOptions } from './models/Server';
-import { NewUserOptions } from './models/User';
-import { NewLocationOptions } from './models/Location';
-import { NewNodeOptions } from './models/Node';
+import { NewServerOptions } from './models/Server.js';
+import { NewUserOptions } from './models/User.js';
+import { NewLocationOptions } from './models/Location.js';
+import { NewNodeOptions } from './models/Node.js';
 
 /**
  * @class AdminClient

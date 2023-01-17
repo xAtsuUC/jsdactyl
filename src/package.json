@@ -1,6 +1,6 @@
 {
 	"name": "@xatsuuc_/jsdactyl",
-	"version": "1.3.1-RC",
+	"version": "1.3.1-Beta-7.1-Module",
 	"description": "A Pterodactyl Panel API Wrapper",
 	"main": "compiled/index.js",
 	"repository": "https://github.com/xAtsuUC/pterojs",

@@ -1,9 +1,9 @@
-import AdminAPI from './AdminAPI';
+import AdminAPI from './AdminAPI.js';
 
-import Egg from './Egg';
+import Egg from './Egg.js';
 
-import NestModel, { NestOptionsRaw } from './models/Nest';
-import Pagination, { PaginationOptionsRaw } from './models/Pagination';
+import NestModel, { NestOptionsRaw } from './models/Nest.js';
+import Pagination, { PaginationOptionsRaw } from './models/Pagination.js';
 
 /**
  * @class Nest

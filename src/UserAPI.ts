@@ -1,6 +1,6 @@
-import PterodactylAPI from './main';
+import PterodactylAPI from './main.js';
 
-import ClientServer from './ClientServer';
+import ClientServer from './ClientServer.js';
 
 /**
  * @class UserClient

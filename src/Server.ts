@@ -1,8 +1,8 @@
-import AdminAPI from './AdminAPI';
+import AdminAPI from './AdminAPI.js';
 
-import ServerModel, { ServerOptionsRaw, ServerDetailsRequestOptions, ServerBuildConfigRequestOptions, ServerStartupRequestOptions, NewServerOptions, ServerUpdateOptions, ServerBuildOptions, ServerStartupOptions } from './models/Server';
-import ServerDatabase from './ServerDatabase';
-import Pagination, { PaginationOptionsRaw } from './models/Pagination';
+import ServerModel, { ServerOptionsRaw, ServerDetailsRequestOptions, ServerBuildConfigRequestOptions, ServerStartupRequestOptions, NewServerOptions, ServerUpdateOptions, ServerBuildOptions, ServerStartupOptions } from './models/Server.js';
+import ServerDatabase from './ServerDatabase.js';
+import Pagination, { PaginationOptionsRaw } from './models/Pagination.js';
 
 /** 
  * @extends ServerModel

@@ -1,7 +1,7 @@
-import AdminAPI from './AdminAPI';
+import AdminAPI from './AdminAPI.js';
 
-import NodeAllocationModel, { NodeAllocationOptions } from './models/NodeAllocation';
-import Pagination, { PaginationOptionsRaw } from './models/Pagination';
+import NodeAllocationModel, { NodeAllocationOptions } from './models/NodeAllocation.js';
+import Pagination, { PaginationOptionsRaw } from './models/Pagination.js';
 
 /**
  * @class NodeAllocation

@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import AdminAPI from './AdminAPI';
 
-import UserModel, { UserOptionsRaw, NewUserOptions } from './models/User';
-import Pagination, { PaginationOptionsRaw } from './models/Pagination';
+import UserModel, { UserOptionsRaw, NewUserOptions } from './models/User.js';
+import Pagination, { PaginationOptionsRaw } from './models/Pagination.js';
 /**
  * @class User
  * @extends UserModel

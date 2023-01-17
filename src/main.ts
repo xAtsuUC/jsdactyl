@@ -1,8 +1,8 @@
 import fetch from 'node-fetch';
 
-import { PaginationOptionsRaw } from './models/Pagination';
+import { PaginationOptionsRaw } from './models/Pagination.js';
 
-const pkg = require('../package.json');
+import * as pkg from './package.json' assert { type: "json" };
 
 interface ResponseData {
     statusCode: number,

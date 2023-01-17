@@ -1,5 +1,5 @@
-import UserAPI from './UserAPI';
-import AdminAPI from './AdminAPI';
+import UserAPI from './UserAPI.js';
+import AdminAPI from './AdminAPI.js';
 
 class ClientBuilder {
     private url: string;
