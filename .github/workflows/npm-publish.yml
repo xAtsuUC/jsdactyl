@@ -32,4 +32,4 @@ jobs:
       - run: yarn run build
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          PKG_TOKEN: ${{secrets.npm_token}}
