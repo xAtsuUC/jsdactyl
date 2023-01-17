@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18.x'
-          registry: 'https://npm.pkg.github.com'
+          registry: 'https://npm.pkg.github.com/?_authToken=${NODE_AUTH_TOKEN}'
           # Defaults to the user or organization that owns the workflow file
           scope: '@xatsuuc'
       - run: npm i -g yarn
