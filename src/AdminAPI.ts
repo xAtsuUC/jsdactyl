@@ -1,4 +1,4 @@
-import PterodactylAPI from './index';
+import PterodactylAPI from './main';
 
 import User from './User';
 import Node from './Node';
@@ -54,7 +54,7 @@ class AdminClient extends PterodactylAPI {
         };
 
         return new Promise((resolve, reject) => {
-            this.call('/application/servers').then(res => {
+            this.call('/application/servers', "GET").then(res => {
                 let error = null;
 
                 if (res.statusCode !== 200) {

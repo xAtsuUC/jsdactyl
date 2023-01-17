@@ -1,25 +1,25 @@
-import Builder from './lib/Builder';
+import Builder from './Builder';
 
-import AdminClient from './lib/AdminAPI';
-import UserClient from './lib/UserAPI';
+import AdminClient from './AdminAPI';
+import UserClient from './UserAPI';
 
-import User from './lib/User';
-import Node from './lib/Node';
-import Location from './lib/Location';
-import Server from './lib/Server';
-import Nest from './lib/Nest';
-import Egg from './lib/Egg';
+import User from './User';
+import Node from './Node';
+import Location from './Location';
+import Server from './Server';
+import Nest from './Nest';
+import Egg from './Egg';
 
-import NodeAllocation from './lib/NodeAllocation';
-import ServerDatabase from './lib/ServerDatabase';
+import NodeAllocation from './NodeAllocation';
+import ServerDatabase from './ServerDatabase';
 
-import ClientServerModel from './lib/models/ClientServer';
-import UserModel from './lib/models/User';
-import NodeModel from './lib/models/Node';
-import LocationModel from './lib/models/Location';
-import ServerModel from './lib/models/Server';
-import NestModel from './lib/models/Nest';
-import EggModel from './lib/models/Egg';
+import ClientServerModel from './models/ClientServer';
+import UserModel from './models/User';
+import NodeModel from './models/Node';
+import LocationModel from './models/Location';
+import ServerModel from './models/Server';
+import NestModel from './models/Nest';
+import EggModel from './models/Egg';
 
 export {
     Builder,

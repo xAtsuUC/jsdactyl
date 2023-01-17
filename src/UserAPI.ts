@@ -1,4 +1,4 @@
-import PterodactylAPI from './index';
+import PterodactylAPI from './main';
 
 import ClientServer from './ClientServer';
 

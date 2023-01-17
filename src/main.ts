@@ -67,7 +67,9 @@ class PterodactylAPI {
     //     });
     // }
 
-    public call(endpoint: string = '/', method: any = 'GET', data?: any, noBody: boolean = false): Promise<ResponseData> {
+    public call(endpoint: string | '/', method?: "POST" | "GET" | "PATCH" | "DELETE", data?: any, noBody?: boolean): Promise<ResponseData> {
+        (noBody) ? noBody = true : noBody = false;
+        (endpoint) ? true : endpoint = "/";
         let url = this.baseUrl + endpoint;        
 
         return new Promise(async (resolve, reject) => {
