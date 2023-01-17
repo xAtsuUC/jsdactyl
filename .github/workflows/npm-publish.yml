@@ -17,8 +17,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: yarn install --frozen-lockfile -D.
-      - run: yarn run build
+      - run: npm ci
+      - run: npm run build
 
   publish-npm:
     needs: build
@@ -28,8 +28,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: yarn install --frozen-lockfile -D.
-      - run: yarn run build
+      - run: npm ci
+      - run: npm run build
       - run: npm publish
         env:
-          PKG_TOKEN: ${{secrets.npm_token}}
+          NPM_TOKEN: ${{secrets.npm_token}}

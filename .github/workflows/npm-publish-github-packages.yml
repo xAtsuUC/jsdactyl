@@ -26,4 +26,4 @@ jobs:
       - run: yarn test
       - run: yarn publish
         env:
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PKG_TOKEN: ${{ secrets.GITHUB_TOKEN }}
