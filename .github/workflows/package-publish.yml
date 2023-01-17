@@ -41,6 +41,6 @@ jobs:
       - run: yarn install --frozen-lockfile -D.
       - run: npm run build
       - run: npm test
-      - run: npm publish
+      - run: npm publish jsdactyl
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
